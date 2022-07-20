@@ -1,7 +1,7 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 import Home from "./Home";
-import * as Table from "../../Table.stories";
+import * as Table from "../../components/Table.stories";
 
 export default {
 	title: "Ag-Grid/Home",

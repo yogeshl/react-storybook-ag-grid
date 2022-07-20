@@ -3,9 +3,9 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import Table from "./Table";
 import { TableType } from "./Table.types";
 
-import Car from "./assets/sedan.png";
-import Jeep from "./assets/jeep.png";
-import Van from "./assets/van.png";
+import Car from "../assets/sedan.png";
+import Jeep from "../assets/jeep.png";
+import Van from "../assets/van.png";
 
 // define defaults that can be used as a base for each story
 const defaultArgs: TableType = {

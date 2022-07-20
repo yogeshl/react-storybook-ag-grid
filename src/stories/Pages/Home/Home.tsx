@@ -1,6 +1,6 @@
 import React from "react";
-import { row } from "../../Table.types";
-import Table from "../../Table";
+import { row } from "../../components/Table.types";
+import Table from "../../components/Table";
 
 const Home = (
     { rowData, title, columnDefs}: { rowData: Array<row>; title: string; footer: string; columnDefs: any }) => {
